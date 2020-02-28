@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "Ambassador", targets: ["Ambassador"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/envoy/Embassy.git", from: "4.1.1")
+        .package(url: "https://github.com/envoy/Embassy.git", from: "4.1.2")
     ],
     targets: [
         .target(name: "Ambassador", dependencies: ["Embassy"], path: "Ambassador"),
